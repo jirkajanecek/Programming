@@ -7,7 +7,41 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <SplitView Name="MainSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="150">
+        <SplitView.Pane>
+			
+			<ListBox Background="Red" HorizontalAlignment="Left" SelectionMode="Single">
 
-    </Grid>
+				<ListBoxItem Padding="0,0,0,0">
+					<StackPanel Orientation="Horizontal">
+						<Button Name="HamburgerButton" Width="50" Height="50" FontFamily="Segoe MDL2 Assets" FontSize="24" Content="&#xE700;" Background="Transparent" Click="HamburgerButton_Click"></Button>
+					</StackPanel>
+				</ListBoxItem>
+
+				<ListBoxItem Padding="0,0,0,0">
+					<StackPanel Orientation="Horizontal">
+						<Button Name="SettingsButton" Width="50" Height="50" FontFamily="Segoe MDL2 Assets" FontSize="24" Content="&#xE115;" Background="Transparent" Click="SettingsButton_Click" ></Button>
+						<TextBlock VerticalAlignment="Center" FontSize="18">Settings</TextBlock>
+					</StackPanel>
+				</ListBoxItem>
+
+				<ListBoxItem Padding="0,0,0,0">
+					<StackPanel Orientation="Horizontal">
+						<Button Name="ShareButton" Width="50" Height="50" FontFamily="Segoe MDL2 Assets" FontSize="24" Content="&#xE72D;" Background="Transparent" Click="ShareButton_Click"></Button>
+						<TextBlock VerticalAlignment="Center" FontSize="18">Share</TextBlock>
+					</StackPanel>
+				</ListBoxItem>
+				
+			</ListBox>
+			
+		</SplitView.Pane>
+        <SplitView.Content>
+			
+			<!-- main visual frame -->
+			<Frame Name="ContentFrame"></Frame>
+			
+		</SplitView.Content>
+    </SplitView>
+    
+    
 </Page>

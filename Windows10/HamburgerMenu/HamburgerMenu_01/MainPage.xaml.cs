@@ -25,6 +25,25 @@ namespace HamburgerMenu_01
         public MainPage()
         {
             this.InitializeComponent();
+			ContentFrame.Navigate(typeof(SettingsPage));
         }
-    }
+
+		private void HamburgerButton_Click(object sender, RoutedEventArgs e)
+		{
+			MainSplitView.IsPaneOpen = !MainSplitView.IsPaneOpen;
+			return;
+		}
+
+		private void SettingsButton_Click(object sender, RoutedEventArgs e)
+		{
+			ContentFrame.Navigate(typeof(SettingsPage));
+			return;
+		}
+
+		private void ShareButton_Click(object sender, RoutedEventArgs e)
+		{
+			ContentFrame.Navigate(typeof(SharePage));
+			return;
+		}
+	}
 }
