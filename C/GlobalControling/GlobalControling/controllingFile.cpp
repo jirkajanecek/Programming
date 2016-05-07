@@ -1,9 +1,19 @@
 #include "controllingFile.h"
 
-void initGlobalControls(
+#include <stdlib.h>
+
+ControllingClass::ControllingClass(
 	void
 	)
 {
-	g_controls[GLOBAL_INDEXES::FIRST_ATTRIBUTE] = 1;
-	g_controls[GLOBAL_INDEXES::SECOND_ATTRIBUTE] = 85;
+	m_controlValues[GLOBAL_INDEXES::PRINT_MAIN] = true;
+	m_controlValues[GLOBAL_INDEXES::PRINT_CLASS_A] = false;
+	m_controlValues[GLOBAL_INDEXES::PRINT_CLASS_B] = true;
+}
+
+bool ControllingClass::check(
+	GLOBAL_INDEXES index
+	)
+{
+	return (m_controlValues[index] == 0)? false : true;
 }

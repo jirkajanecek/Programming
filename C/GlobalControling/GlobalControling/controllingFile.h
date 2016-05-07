@@ -1,18 +1,33 @@
 #ifndef _CONTROLLING_FILE_H_
 #define _CONTROLLING_FILE_H_
 
-enum GLOBAL_INDEXES
+class ControllingClass
 {
-	FIRST_ATTRIBUTE = 0,
-	SECOND_ATTRIBUTE = 1,
-	INDEXES_SIZE
+public:
+
+	enum GLOBAL_INDEXES
+	{
+		PRINT_MAIN = 0,
+		PRINT_CLASS_A,
+		PRINT_CLASS_B,
+		INDEXES_SIZE
+	};
+
+private:
+
+	long long m_controlValues[GLOBAL_INDEXES::INDEXES_SIZE];
+
+public:
+
+	ControllingClass(
+		void
+		);
+
+	bool check(
+		GLOBAL_INDEXES index
+		);
 };
 
-//main controlling array
-static long long g_controls[INDEXES_SIZE];
-
-void initGlobalControls(
-	void
-	);
+static ControllingClass g_controllingClass;
 
 #endif //_CONTROLLING_FILE_H_

@@ -15,6 +15,10 @@ public:
 	~ControlledClassA(
 		void
 		);
+
+	virtual void print(
+		void
+		);
 };
 
 #endif //_CONTROLLED_CLASS_A_H_

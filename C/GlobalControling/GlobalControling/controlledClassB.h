@@ -1,4 +1,3 @@
-#pragma once
 #ifndef _CONTROLLED_CLASS_B_H_
 #define _CONTROLLED_CLASS_B_H_
 
@@ -16,6 +15,10 @@ public:
 		);
 
 	~ControlledClassB(
+		void
+		);
+
+	virtual void print(
 		void
 		);
 };
