@@ -33,7 +33,10 @@ namespace Strings
 			Console.WriteLine(currency);
 
 			String bigNumber = String.Format("{0:N}", 1234567890);
-			Console.WriteLine(bigNumber);			
+			Console.WriteLine(bigNumber);
+
+			String percentage = String.Format("{0:P}", .123);
+			Console.WriteLine(percentage);
 
 			return;
 		}
