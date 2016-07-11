@@ -14,6 +14,7 @@ namespace Strings
 			program.concatenate();
 			program.createDynamically();
 			program.tips();
+			program.stringBuilder();
 
 			Console.ReadLine();
 		}
@@ -28,6 +29,9 @@ namespace Strings
 			String formated = String.Format("Number: {0}, Strign {1}", 0, "Test");
 			Console.WriteLine(formated);
 
+			//string number format
+			//https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx
+
 			//currency
 			String currency = String.Format("{0:C}", 123.45);
 			Console.WriteLine(currency);
@@ -37,6 +41,22 @@ namespace Strings
 
 			String percentage = String.Format("{0:P}", .123);
 			Console.WriteLine(percentage);
+
+			String phoneNumber = String.Format("{0:### ### ###}", 606674936);
+			Console.WriteLine(phoneNumber);
+
+			string stringBorderedWithSpaces = " Some text... ";
+
+			string substring01 = stringBorderedWithSpaces.Substring(6);
+			Console.WriteLine(substring01);
+
+			string substring02 = stringBorderedWithSpaces.Substring(6, 4);
+			Console.WriteLine(substring02);
+
+			string lengths = String.Format(
+				"Length before {0} -- length after trimming: {1}", 
+				stringBorderedWithSpaces.Length, stringBorderedWithSpaces.Trim().Length);
+			Console.WriteLine(lengths);
 
 			return;
 		}
@@ -58,6 +78,19 @@ namespace Strings
 
 			String result01 = oneString + space + secondString;
 			System.Console.WriteLine(result01);
+			return;
+		}
+
+		void stringBuilder(
+			)
+		{
+			StringBuilder stringBuilder = new StringBuilder();
+			for (int i = 0; i < 100; ++i)
+			{
+				stringBuilder.AppendFormat("--{0}", i.ToString());
+			}
+			Console.WriteLine(stringBuilder);
+
 			return;
 		}
 	}
