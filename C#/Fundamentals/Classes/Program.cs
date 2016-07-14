@@ -41,6 +41,7 @@ namespace Classes
 			}
 		}
 
+		//common public method
 		public int sumMembers()
 		{
 			return member01 + Member03;
