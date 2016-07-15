@@ -21,7 +21,7 @@ namespace Classes
 		}
 	}
 
-	class TestClass
+	public class TestClass
 	{
 		//created by prop
 		public int member01 { get; set; }
