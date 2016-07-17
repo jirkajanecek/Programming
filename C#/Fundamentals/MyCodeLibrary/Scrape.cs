@@ -10,7 +10,7 @@ namespace MyCodeLibrary
 {
     public class Scrape
     {
-        public string scrapeWebpage(
+        public string scrapeWebPage(
             string url
             )
         {

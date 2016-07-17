@@ -2,6 +2,7 @@
 using System;
 using System.IO;
 using System.Net;
+using MyCodeLibrary;
 
 namespace AssembliesAndNamespaces
 {
@@ -17,6 +18,12 @@ namespace AssembliesAndNamespaces
             WebClient webClient = new WebClient();
             string webContent = webClient.DownloadString("http://msdn.microsoft.com");
             Console.WriteLine(webContent);
+
+            //Scarpe was add by "add assembly"
+            //Created as code library
+            Scrape scrape = new Scrape();
+            string webPageContent = scrape.scrapeWebPage("http://msdn.microsoft.com");
+            Console.WriteLine(webPageContent);
 
             Console.ReadLine();
 
