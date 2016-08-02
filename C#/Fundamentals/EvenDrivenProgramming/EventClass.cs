@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//information used:
+//	Publishing and subscribing events: https://msdn.microsoft.com/en-us/library/w369ty8x.aspx
+
 namespace EvenDrivenProgramming
 {
 	class EventClass
