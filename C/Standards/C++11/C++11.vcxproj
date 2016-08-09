@@ -142,6 +142,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="constexpr.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="rValue_moveConstructor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="constexpr.h" />
+    <ClInclude Include="rValue_moveConstructor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

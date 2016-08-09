@@ -1,6 +1,9 @@
 #pragma once
 
+//TODO: move constructor
+
 //rvalue reference article: http://thbecker.net/articles/rvalue_references/section_01.html
+//other description to performace issues during returning value https://en.wikipedia.org/wiki/Return_value_optimization
 
 class RValueAndMoveConstructor
 {
