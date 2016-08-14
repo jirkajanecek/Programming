@@ -143,12 +143,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="constexpr.cpp" />
+    <ClCompile Include="initializer_list.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="rValue_moveConstructor.cpp" />
+    <ClCompile Include="type_inference.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="constexpr.h" />
+    <ClInclude Include="initializer_list.h" />
     <ClInclude Include="rValue_moveConstructor.h" />
+    <ClInclude Include="type_inference.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
