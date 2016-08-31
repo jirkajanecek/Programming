@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uwp11", "uwp11\uwp11.csproj", "{71035977-D36E-4E60-8685-FED53BB4EEAB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uwp13", "uwp13\uwp13.csproj", "{64C9A0DB-5437-44D8-95BB-279C858CE8FC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uwp15 - LabouriousLayout", "uwp15 - LabouriousLayout\uwp15 - LabouriousLayout.csproj", "{693CEFE6-4AF2-4E71-B764-B9C00DACAA2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UWP23-HamburgerHeaven", "UWP23-HamburgerHeaven\UWP23-HamburgerHeaven.csproj", "{DC707DC9-BE47-450F-B40D-72FE4DD86C70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,24 @@ Global
 		{693CEFE6-4AF2-4E71-B764-B9C00DACAA2C}.Release|x86.ActiveCfg = Release|x86
 		{693CEFE6-4AF2-4E71-B764-B9C00DACAA2C}.Release|x86.Build.0 = Release|x86
 		{693CEFE6-4AF2-4E71-B764-B9C00DACAA2C}.Release|x86.Deploy.0 = Release|x86
+		{DC707DC9-BE47-450F-B40D-72FE4DD86C70}.Debug|ARM.ActiveCfg = Debug|ARM
+		{DC707DC9-BE47-450F-B40D-72FE4DD86C70}.Debug|ARM.Build.0 = Debug|ARM
+		{DC707DC9-BE47-450F-B40D-72FE4DD86C70}.Debug|ARM.Deploy.0 = Debug|ARM
+		{DC707DC9-BE47-450F-B40D-72FE4DD86C70}.Debug|x64.ActiveCfg = Debug|x64
+		{DC707DC9-BE47-450F-B40D-72FE4DD86C70}.Debug|x64.Build.0 = Debug|x64
+		{DC707DC9-BE47-450F-B40D-72FE4DD86C70}.Debug|x64.Deploy.0 = Debug|x64
+		{DC707DC9-BE47-450F-B40D-72FE4DD86C70}.Debug|x86.ActiveCfg = Debug|x86
+		{DC707DC9-BE47-450F-B40D-72FE4DD86C70}.Debug|x86.Build.0 = Debug|x86
+		{DC707DC9-BE47-450F-B40D-72FE4DD86C70}.Debug|x86.Deploy.0 = Debug|x86
+		{DC707DC9-BE47-450F-B40D-72FE4DD86C70}.Release|ARM.ActiveCfg = Release|ARM
+		{DC707DC9-BE47-450F-B40D-72FE4DD86C70}.Release|ARM.Build.0 = Release|ARM
+		{DC707DC9-BE47-450F-B40D-72FE4DD86C70}.Release|ARM.Deploy.0 = Release|ARM
+		{DC707DC9-BE47-450F-B40D-72FE4DD86C70}.Release|x64.ActiveCfg = Release|x64
+		{DC707DC9-BE47-450F-B40D-72FE4DD86C70}.Release|x64.Build.0 = Release|x64
+		{DC707DC9-BE47-450F-B40D-72FE4DD86C70}.Release|x64.Deploy.0 = Release|x64
+		{DC707DC9-BE47-450F-B40D-72FE4DD86C70}.Release|x86.ActiveCfg = Release|x86
+		{DC707DC9-BE47-450F-B40D-72FE4DD86C70}.Release|x86.Build.0 = Release|x86
+		{DC707DC9-BE47-450F-B40D-72FE4DD86C70}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
