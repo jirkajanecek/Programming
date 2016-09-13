@@ -12,12 +12,19 @@ namespace Basic
 	{
 		static void Main(string[] args)
 		{
-			_01.process();
-			_02.process();
-			_03.process();
-			_04.process();
-			_05.process();
 
+			//Write a C# Sharp program to print Hello and your name in a separate line.
+			_01.process();
+			//Write a C# Sharp program to print the sum of two numbers.
+			_02.process();
+			//Write a C# Sharp program to print the result of dividing two numbers.
+			_03.process();
+			//Write a C# Sharp program to print the result of the specified operations.
+			_04.process();
+			//Write a C# Sharp program to swap two numbers.
+			_05.process();
+			//Write a C# Sharp program to print the output of multiplication of three numbers which will entered by the user.
+			_06.process();
 			Console.ReadLine();
 		}
 	}
