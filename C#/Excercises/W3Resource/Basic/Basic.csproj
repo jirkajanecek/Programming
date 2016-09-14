@@ -49,6 +49,9 @@
     <Compile Include="04.cs" />
     <Compile Include="05.cs" />
     <Compile Include="06.cs" />
+    <Compile Include="07.cs" />
+    <Compile Include="08.cs" />
+    <Compile Include="09.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

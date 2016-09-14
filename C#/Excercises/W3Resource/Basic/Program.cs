@@ -25,6 +25,13 @@ namespace Basic
 			_05.process();
 			//Write a C# Sharp program to print the output of multiplication of three numbers which will entered by the user.
 			_06.process();
+			//Write a C# Sharp program to print on screen the output of adding, subtracting, multiplying and dividing 
+			//of two numbers which will entered 
+			_07.process();
+			//Write a C# Sharp program that takes a number as input and print its multiplication table.
+			_08.process();
+			//Write a C# Sharp program that takes four numbers as input to calculate and print the average.
+			_09.process();
 			Console.ReadLine();
 		}
 	}
