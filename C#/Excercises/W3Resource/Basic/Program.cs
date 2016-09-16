@@ -32,6 +32,15 @@ namespace Basic
 			_08.process();
 			//Write a C# Sharp program that takes four numbers as input to calculate and print the average.
 			_09.process();
+			//Write a C# program to that takes a number as input and display it four times in a row (separated
+			//with blank spaces), and then four times in the next row, with no separation. You should do it two
+			//times: Use Console. Write and then use {0}
+			_12.process();
+			//Write a C# program that takes a number as input and then display a rectangle 3 columns wide and
+			//5 rows tall using that digit.
+			_13.process();
+			//Write a C# program to convert from celsius degrees to Kelvin and Fahrenheit
+			_14.process();
 			Console.ReadLine();
 		}
 	}
