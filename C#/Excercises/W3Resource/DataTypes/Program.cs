@@ -22,7 +22,9 @@ namespace DataTypes
 			//Write a C# Sharp program that takes a character as input and check the 
 			//input (lowercase) is vowel, a digit, or any other symbol.
 			_09.process();
-
+			//Write a C# Sharp program that takes a decimal number as input and displays
+			//its equivalent in binary form.
+			_11.process();
 			Console.ReadLine();
 		}
 	}
