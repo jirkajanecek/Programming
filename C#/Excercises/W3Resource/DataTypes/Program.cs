@@ -25,6 +25,7 @@ namespace DataTypes
 			//Write a C# Sharp program that takes a decimal number as input and displays
 			//its equivalent in binary form.
 			_11.process();
+
 			Console.ReadLine();
 		}
 	}
