@@ -42,12 +42,12 @@ namespace ForLoop
 
 				}
 
-				if(currentItem > itemsCount)
+				Console.WriteLine();
+
+				if (currentItem > itemsCount)
 				{
 					break;
-				}
-
-				Console.WriteLine();
+				}				
 			}
 		}
 

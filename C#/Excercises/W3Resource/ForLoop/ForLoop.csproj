@@ -48,6 +48,12 @@
     <Compile Include="11.cs" />
     <Compile Include="12.cs" />
     <Compile Include="13.cs" />
+    <Compile Include="14.cs" />
+    <Compile Include="16.cs" />
+    <Compile Include="20.cs" />
+    <Compile Include="21.cs" />
+    <Compile Include="22.cs" />
+    <Compile Include="27.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

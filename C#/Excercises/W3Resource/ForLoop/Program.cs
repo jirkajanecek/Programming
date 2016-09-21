@@ -61,6 +61,43 @@ namespace ForLoop
 			 */
 			_13.process();
 
+			/*
+			 Write a program in C# Sharp to make such a pattern like pyramid with asterisk.
+				   *
+				  * * 
+				 * * *
+				* * * *
+			 */
+			_14.process();
+
+			//Write a program in C# Sharp to display the n terms of even natural number and their sum.
+			_16.process();
+
+			/*
+			 Write a program in C# Sharp to display the pattern like pyramid using asterisk and each rows contain odd number of asterisks
+				  *
+				 ***
+				*****
+			 
+			 */
+			_20.process();
+
+			//Write a program in C# Sharp to display the sum of the series [ 9 + 99 + 999 + 9999 ...].
+			_21.process();
+
+			/*
+			 Write a program in C# Sharp to print the Floyd's Triangle.
+				1
+				01 
+				101
+				0101 
+				10101
+			 */
+			_22.process();
+
+			//Write a C# Sharp program to check whether a given number is perfect number or not.
+			_27.process();
+
 			Console.ReadLine();
 		}
 	}
