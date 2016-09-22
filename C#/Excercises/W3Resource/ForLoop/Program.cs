@@ -98,6 +98,29 @@ namespace ForLoop
 			//Write a C# Sharp program to check whether a given number is perfect number or not.
 			_27.process();
 
+			//Write a C# Sharp program to find the perfect numbers within a given number of range.
+			_28.process();
+			
+			//Write a C# Sharp program to check whether a given number is armstrong number or not.
+			_29.process();
+
+			/*
+			 Write a program in C# Sharp to display the pattern like diamond
+					* 
+				   *** 
+				  *****
+				 *******
+				*********
+				 *******
+				  *****
+				   ***
+					* 
+			 */
+			_30.process();
+
+			//Write a C# Sharp program to determine whether a given number is prime or not.
+			_32.process();
+
 			Console.ReadLine();
 		}
 	}
