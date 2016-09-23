@@ -121,6 +121,25 @@ namespace ForLoop
 			//Write a C# Sharp program to determine whether a given number is prime or not.
 			_32.process();
 
+			//Write a program in C# Sharp to display the first n terms of fibonacci series.
+			//fibonacii series 0 1 2 3 5 8 13.....
+			_35.process();
+
+			/*
+			 Write a program in C# Sharp to display the such a pattern for n number of rows using number which will be start with the number 1 and the first and last number of each row will be 1.
+				  1
+				 121
+				12321
+			 */
+			_36.process();
+
+			//Write a program in C# Sharp to convert a decimal number into binary without using array.
+			_41.process();
+
+			//Write a program in C# Sharp to convert a binary number into decimal number without
+			//using array, function and while loop.
+			_42.process();
+
 			Console.ReadLine();
 		}
 	}

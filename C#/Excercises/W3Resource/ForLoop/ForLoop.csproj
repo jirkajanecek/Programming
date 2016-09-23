@@ -58,6 +58,10 @@
     <Compile Include="29.cs" />
     <Compile Include="30.cs" />
     <Compile Include="32.cs" />
+    <Compile Include="35.cs" />
+    <Compile Include="36.cs" />
+    <Compile Include="41.cs" />
+    <Compile Include="42.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
