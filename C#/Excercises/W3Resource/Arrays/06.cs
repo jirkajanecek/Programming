@@ -30,6 +30,7 @@ namespace Arrays
 					Console.Write("{0} ", values[i]);
 				}
 			}
+			Console.WriteLine();
 		}
 	}
 }

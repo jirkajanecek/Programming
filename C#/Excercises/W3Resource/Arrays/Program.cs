@@ -32,6 +32,9 @@ namespace Arrays
 
 			//Write a program in C# Sharp to print all unique elements in an array.
 			_06.process();
+
+			//Write a program in C# Sharp to merge two arrays of same size sorted in ascending order.
+			_07.process();
 		}
 	}
 }
