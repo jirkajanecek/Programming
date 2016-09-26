@@ -49,6 +49,13 @@
     <Compile Include="05.cs" />
     <Compile Include="06.cs" />
     <Compile Include="07.cs" />
+    <Compile Include="08.cs" />
+    <Compile Include="09.cs" />
+    <Compile Include="10.cs" />
+    <Compile Include="11.cs" />
+    <Compile Include="13.cs" />
+    <Compile Include="16_17.cs" />
+    <Compile Include="18.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
