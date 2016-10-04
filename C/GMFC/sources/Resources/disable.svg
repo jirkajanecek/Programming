@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="300px" height="300px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 25.5337 25.5337"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:white;stroke-width:0.150668}
+    .str0 {stroke:#003399;stroke-width:0.150668}
+    .fil1 {fill:white}
+    .fil0 {fill:#003399}
+   ]]>
+  </style>
+ </defs>
+ <g id="Vrstva_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0 str0" x="0.0753341" y="0.0753341" width="25.383" height="25.383"/>
+  <path class="fil1 str1" d="M12.7668 3.72127c4.99486,0 9.04556,4.0507 9.04556,9.04556 0,4.99486 -4.0507,9.04556 -9.04556,9.04556 -4.99486,0 -9.04556,-4.0507 -9.04556,-9.04556 0,-4.99486 4.0507,-9.04556 9.04556,-9.04556zm0 2.71365c3.49638,0 6.33191,2.83554 6.33191,6.33191 0,3.49638 -2.83554,6.33191 -6.33191,6.33191 -3.49638,0 -6.33191,-2.83554 -6.33191,-6.33191 0,-3.49638 2.83554,-6.33191 6.33191,-6.33191z"/>
+  <rect class="fil1 str1" transform="matrix(-0.707107 -0.707107 -1.39382 1.39382 19.8702 7.65183)" width="2.81205" height="8.76609"/>
+ </g>
+</svg>

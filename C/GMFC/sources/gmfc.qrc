@@ -1,0 +1,49 @@
+<RCC>
+    <qresource prefix="/Toolbar">
+        <file>Resources/close.svg</file>
+        <file>Resources/entryPoint.svg</file>
+        <file>Resources/pe.svg</file>
+        <file>Resources/targetAddress.svg</file>
+        <file>Resources/desc.svg</file>
+        <file>Resources/jmp_beg.svg</file>
+        <file>Resources/jmp_end.svg</file>
+        <file>Resources/overlay.svg</file>
+        <file>Resources/image_base.svg</file>
+        <file>Resources/search.svg</file>
+        <file>Resources/save_pattern.svg</file>
+        <file>Resources/save_pattern_bck.svg</file>
+        <file>Resources/save_pattern_fwd.svg</file>
+        <file>Resources/search_text.svg</file>
+        <file>Resources/disable.svg</file>
+        <file>Resources/enable.svg</file>
+    </qresource>
+    <qresource prefix="/ResultWidget">
+        <file>Resources/clip.svg</file>
+        <file>Resources/seq.svg</file>
+        <file>Resources/skip.svg</file>
+        <file>Resources/xdefFile.svg</file>
+        <file>Resources/default_all.svg</file>
+        <file>Resources/clip_light.svg</file>
+        <file>Resources/xdefFile_light.svg</file>
+        <file>Resources/default.svg</file>
+        <file>Resources/check.svg</file>
+    </qresource>
+    <qresource prefix="/Global">
+        <file>Resources/error.svg</file>
+    </qresource>
+    <qresource prefix="/GMFC">
+        <file>Resources/addSmpl.svg</file>
+        <file>Resources/fileList.svg</file>
+        <file>Resources/jmp_down_page.svg</file>
+        <file>Resources/jmp_down_row.svg</file>
+        <file>Resources/jmp_up_page.svg</file>
+        <file>Resources/jmp_up_row.svg</file>
+        <file>Resources/jmp_beg.svg</file>
+        <file>Resources/jmp_end.svg</file>
+        <file>Resources/entryPoint.svg</file>
+        <file>Resources/overlay.svg</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>Resources/gmfc_v1.svg</file>
+    </qresource>
+</RCC>

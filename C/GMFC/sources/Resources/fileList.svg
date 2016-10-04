@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="300px" height="300px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 12.7904 12.7904"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#003399;stroke-width:0.0754732}
+    .str1 {stroke:white;stroke-width:0.18111}
+    .fil0 {fill:#003399}
+    .fil2 {fill:white}
+    .fil1 {fill:white;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Vrstva_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0 str0" x="0.0377366" y="0.0377366" width="12.7149" height="12.7149"/>
+  <path class="fil1 str1" d="M10.0177 7.73523l-7.24491 0 3.62246 2.70133 3.62246 -2.70133zm-3.62246 0m-1.81123 1.35069m3.62246 0"/>
+  <rect class="fil2 str1" transform="matrix(1.98237E-014 -0.374251 0.800046 1.05944E-014 2.77272 6.7819)" width="4.24776" height="9.05567"/>
+  <rect class="fil2 str1" transform="matrix(1.98237E-014 -0.374251 0.800046 1.05944E-014 2.77272 4.24533)" width="4.24776" height="9.05567"/>
+ </g>
+</svg>

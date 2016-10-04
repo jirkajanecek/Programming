@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="300px" height="300px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 46.5808 46.5808"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#003399;stroke-width:0.274863}
+    .str1 {stroke:white;stroke-width:0.659577}
+    .str2 {stroke:white;stroke-width:3.2982}
+    .fil2 {fill:none}
+    .fil0 {fill:#003399}
+    .fil1 {fill:white}
+   ]]>
+  </style>
+ </defs>
+ <g id="Vrstva_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0 str0" x="0.137431" y="0.137431" width="46.306" height="46.306"/>
+  <polygon class="fil1 str1" points="41.3902,27.4067 29.4371,27.4067 29.4371,31.5231 17.4839,23.2903 29.4371,15.0578 29.4371,19.174 41.3902,19.174 "/>
+  <g id="_146915896">
+   <line id="_146916208" class="fil2 str2" x1="13.1175" y1="2.51272" x2="13.1175" y2= "43.7842" />
+   <line id="_146916136" class="fil2 str2" x1="5.05006" y1="17.0342" x2="13.1175" y2= "17.0342" />
+   <line id="_146916064" class="fil2 str2" x1="5.05006" y1="29.5175" x2="13.1175" y2= "29.5175" />
+   <line id="_146915992" class="fil2 str2" x1="5.05006" y1="40.5864" x2="13.1175" y2= "40.5864" />
+   <line id="_146915920" class="fil2 str2" x1="5.05006" y1="5.68393" x2="13.1175" y2= "5.68393" />
+  </g>
+ </g>
+</svg>
