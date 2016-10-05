@@ -19,6 +19,8 @@ namespace OOP
 		{
 			_0601.process();
 			_0602.process();
+			_0603_Test.process();
+			_0605_Test.process();
 		}
 	}
 }

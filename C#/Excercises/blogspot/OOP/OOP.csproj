@@ -45,6 +45,13 @@
   <ItemGroup>
     <Compile Include="0601.cs" />
     <Compile Include="0602.cs" />
+    <Compile Include="0603.cs" />
+    <Compile Include="0603_Circle.cs" />
+    <Compile Include="0603_Location.cs" />
+    <Compile Include="0603_Rectangle.cs" />
+    <Compile Include="0603_Shape.cs" />
+    <Compile Include="0605.cs" />
+    <Compile Include="0605_Square.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
