@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{8C8FEEE9-9142-48B7-AA61-4F3B37A02302}"
 EndProject
@@ -34,6 +34,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenDrivenProgramming", "EvenDrivenProgramming\EvenDrivenProgramming.csproj", "{709F63E0-4AFB-461B-B84F-37F985A011C5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFEvents", "WPFEvents\WPFEvents.csproj", "{5BA40321-3D6F-4931-B0C5-E5BA567B45E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sqlClient", "sqlClient\sqlClient.csproj", "{509DEA8B-6CAD-4536-961F-2476600415A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads", "Threads\Threads.csproj", "{18ABA434-8132-4E64-9C6C-558029224842}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -303,6 +307,38 @@ Global
 		{5BA40321-3D6F-4931-B0C5-E5BA567B45E5}.Release|x64.Build.0 = Release|Any CPU
 		{5BA40321-3D6F-4931-B0C5-E5BA567B45E5}.Release|x86.ActiveCfg = Release|Any CPU
 		{5BA40321-3D6F-4931-B0C5-E5BA567B45E5}.Release|x86.Build.0 = Release|Any CPU
+		{509DEA8B-6CAD-4536-961F-2476600415A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{509DEA8B-6CAD-4536-961F-2476600415A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{509DEA8B-6CAD-4536-961F-2476600415A1}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{509DEA8B-6CAD-4536-961F-2476600415A1}.Debug|ARM.Build.0 = Debug|Any CPU
+		{509DEA8B-6CAD-4536-961F-2476600415A1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{509DEA8B-6CAD-4536-961F-2476600415A1}.Debug|x64.Build.0 = Debug|Any CPU
+		{509DEA8B-6CAD-4536-961F-2476600415A1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{509DEA8B-6CAD-4536-961F-2476600415A1}.Debug|x86.Build.0 = Debug|Any CPU
+		{509DEA8B-6CAD-4536-961F-2476600415A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{509DEA8B-6CAD-4536-961F-2476600415A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{509DEA8B-6CAD-4536-961F-2476600415A1}.Release|ARM.ActiveCfg = Release|Any CPU
+		{509DEA8B-6CAD-4536-961F-2476600415A1}.Release|ARM.Build.0 = Release|Any CPU
+		{509DEA8B-6CAD-4536-961F-2476600415A1}.Release|x64.ActiveCfg = Release|Any CPU
+		{509DEA8B-6CAD-4536-961F-2476600415A1}.Release|x64.Build.0 = Release|Any CPU
+		{509DEA8B-6CAD-4536-961F-2476600415A1}.Release|x86.ActiveCfg = Release|Any CPU
+		{509DEA8B-6CAD-4536-961F-2476600415A1}.Release|x86.Build.0 = Release|Any CPU
+		{18ABA434-8132-4E64-9C6C-558029224842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18ABA434-8132-4E64-9C6C-558029224842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18ABA434-8132-4E64-9C6C-558029224842}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{18ABA434-8132-4E64-9C6C-558029224842}.Debug|ARM.Build.0 = Debug|Any CPU
+		{18ABA434-8132-4E64-9C6C-558029224842}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{18ABA434-8132-4E64-9C6C-558029224842}.Debug|x64.Build.0 = Debug|Any CPU
+		{18ABA434-8132-4E64-9C6C-558029224842}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{18ABA434-8132-4E64-9C6C-558029224842}.Debug|x86.Build.0 = Debug|Any CPU
+		{18ABA434-8132-4E64-9C6C-558029224842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18ABA434-8132-4E64-9C6C-558029224842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18ABA434-8132-4E64-9C6C-558029224842}.Release|ARM.ActiveCfg = Release|Any CPU
+		{18ABA434-8132-4E64-9C6C-558029224842}.Release|ARM.Build.0 = Release|Any CPU
+		{18ABA434-8132-4E64-9C6C-558029224842}.Release|x64.ActiveCfg = Release|Any CPU
+		{18ABA434-8132-4E64-9C6C-558029224842}.Release|x64.Build.0 = Release|Any CPU
+		{18ABA434-8132-4E64-9C6C-558029224842}.Release|x86.ActiveCfg = Release|Any CPU
+		{18ABA434-8132-4E64-9C6C-558029224842}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
