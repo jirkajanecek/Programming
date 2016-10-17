@@ -21,6 +21,9 @@ namespace MoreOnClasses
 			_0703.Test.process();
 			_0704.Test.process();
 			_0705.Test.process();
+			_0708.Test.process();
+			_0710.Test.process();
+			_0712.Test.process();
 		}
 	}
 }

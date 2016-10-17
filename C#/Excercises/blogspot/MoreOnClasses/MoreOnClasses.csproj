@@ -58,6 +58,14 @@
     <Compile Include="0705_Test.cs" />
     <Compile Include="0706_Leg.cs" />
     <Compile Include="0706_Test.cs" />
+    <Compile Include="0708_RandomNumber.cs" />
+    <Compile Include="0708_Test.cs" />
+    <Compile Include="0710_CenteredText.cs" />
+    <Compile Include="0710_FramedText.cs" />
+    <Compile Include="0710_ScreenText.cs" />
+    <Compile Include="0710_Test.cs" />
+    <Compile Include="0712_3DPoint.cs" />
+    <Compile Include="0712_Test.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
