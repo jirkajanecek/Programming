@@ -56,6 +56,7 @@ namespace LINQ
 						  where car.Model == "BMW"
 						  select new { car.Make, car.Year };
 
+			LINQ_Test.process();
 			Console.ReadLine();
 
 		}
