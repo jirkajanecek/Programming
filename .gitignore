@@ -18,3 +18,5 @@ debug/
 .vs
 
 project.lock.json
+
+TestResults
