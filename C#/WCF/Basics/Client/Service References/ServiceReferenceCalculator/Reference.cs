@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Client.ServiceReferenceCalculator {
+namespace ClientNS.ServiceReferenceCalculator {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -41,12 +41,12 @@ namespace Client.ServiceReferenceCalculator {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface ICalculatorChannel : Client.ServiceReferenceCalculator.ICalculator, System.ServiceModel.IClientChannel {
+    public interface ICalculatorChannel : ClientNS.ServiceReferenceCalculator.ICalculator, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class CalculatorClient : System.ServiceModel.ClientBase<Client.ServiceReferenceCalculator.ICalculator>, Client.ServiceReferenceCalculator.ICalculator {
+    public partial class CalculatorClient : System.ServiceModel.ClientBase<ClientNS.ServiceReferenceCalculator.ICalculator>, ClientNS.ServiceReferenceCalculator.ICalculator {
         
         public CalculatorClient() {
         }
