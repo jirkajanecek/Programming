@@ -10,14 +10,18 @@ Post-Deployment Script Template
 --------------------------------------------------------------------------------------
 */
 
-USE CarEvidence;
+USE CarEvidence01;
 
 /* c_color table */
 
 DELETE c_color;
 
+SET IDENTITY_INSERT c_color ON;
+
 INSERT INTO c_color (Id, Color) VALUES
 (1,'White'),(2,'Black'),(3,'Red'),(4,'Blue'),(5,'Green'), (6,'Yellow');
+
+SET IDENTITY_INSERT c_color OFF;
 
 /* cars table */
 
@@ -39,7 +43,7 @@ INSERT INTO cars (Id, Vin, id_color, DoorCount) VALUES
 (11, '0000000010', 4, 5),
 (12, '0000000011', 4, 5);
 
-INSERT INTO cars (Id, Vin, id_color, DoorCount) VALUES (12, '0000000012', 4, 5);
+INSERT INTO cars (Id, Vin, id_color, DoorCount) VALUES (13, '0000000012', 4, 5);
 
 SET IDENTITY_INSERT cars OFF;
 
@@ -47,10 +51,14 @@ SET IDENTITY_INSERT cars OFF;
 
 DELETE owners;
 
-INSERT INTO owners (BirthNumber, Firstname, Surname) VALUES
-('9901024356', 'Joe', 'Doe'),
-('6507124351', 'Franta', 'Jetel'),
-('0002296666', 'Eva', 'Adam')
+SET IDENTITY_INSERT owners ON;
+
+INSERT INTO owners (Id, BirthNumber, Firstname, Surname) VALUES
+(1, '9901024356', 'Joe', 'Doe'),
+(2, '6507124351', 'Franta', 'Jetel'),
+(3, '0002296666', 'Eva', 'Adam')
+
+SET IDENTITY_INSERT owners OFF;
 
 /* relation table owner -> cars */
 

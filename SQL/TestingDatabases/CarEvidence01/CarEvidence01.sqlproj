@@ -67,4 +67,10 @@
   <ItemGroup>
     <PostDeploy Include="carEvidence01_loadingScript.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="CarEvidence01">
+      <DefaultValue>CarEvidence01</DefaultValue>
+      <Value>$(SqlCmdVar__1)</Value>
+    </SqlCmdVariable>
+  </ItemGroup>
 </Project>
