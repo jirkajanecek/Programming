@@ -65,15 +65,16 @@ namespace DataReader
 
 		private void Inserts()
 		{
-			SimpleInsert();
-			//TODO: bulk insert
+			SimpleInsert();			
 		}
 
 		private void CleanUp()
 		{
 			string query = "DELETE FROM c_color WHERE id > 6;";
 			SqlCommand command = new SqlCommand(query, m_connection);
+			m_connection.Open();
 			int affectedRows = command.ExecuteNonQuery();
+			m_connection.Close();
 			Console.WriteLine("Deleting from c_color: {0}", affectedRows);
 		}
 
