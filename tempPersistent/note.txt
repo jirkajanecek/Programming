@@ -1,2 +1,3 @@
 persistent changes
 line to be removed
+line to be saved
