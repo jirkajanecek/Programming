@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace WhatsNewInCSharp6.DictionaryInitializer
 {
-	class BasicIdea
+	public class BasicIdea
 	{
-		Dictionary<string, string> Dictionary { get; } = new Dictionary<string, string>()
+		public Dictionary<string, string> Dictionary { get; } = new Dictionary<string, string>()
 		{
 			["key0"] = "test0",
 			["key1"] = "test1",

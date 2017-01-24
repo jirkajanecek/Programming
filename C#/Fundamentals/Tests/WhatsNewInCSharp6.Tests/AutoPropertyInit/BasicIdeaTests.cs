@@ -1,14 +1,14 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using WhatsNewInCSharp6.AutoPropertyInit;
+﻿using WhatsNewInCSharp6.AutoPropertyInit;
+using NUnit.Framework;
 
 namespace WhatsNewInCSharp6.Tests.AutoPropertyInit
 {
-	[TestClass]
-	public class BasicIdeaTest
+	[TestFixture]
+	class BasicIdeaTests
 	{
 		private const string testString = "test";
 
-		[TestMethod]
+		[Test]
 		public void AutoProperty_BasicIdea_CheckValues()
 		{
 			BasicIdea basicIdea = new BasicIdea();
