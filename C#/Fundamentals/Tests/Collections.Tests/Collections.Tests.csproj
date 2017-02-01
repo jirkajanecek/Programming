@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PluralSight\CollectionsAndGenerics\DictionaryTests.cs" />
     <Compile Include="PluralSight\CollectionsAndGenerics\ListTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

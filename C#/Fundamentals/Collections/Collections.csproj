@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="ListTest.cs" />
     <Compile Include="PluralSight\CollectionsAndGenerics\Containers.cs" />
+    <Compile Include="PluralSight\CollectionsAndGenerics\Dictionary.cs" />
     <Compile Include="PluralSight\CollectionsAndGenerics\List.cs" />
     <Compile Include="PluralSight\CollectionsAndGenerics\Operations.cs" />
     <Compile Include="Program.cs" />
