@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="UWP23_HamburgerHeaven.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWP23_HamburgerHeaven"
+    RequestedTheme="Light">
+
+</Application>
