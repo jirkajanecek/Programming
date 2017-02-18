@@ -44,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccessModifiers.cs" />
+    <Compile Include="Abstract.cs" />
+    <Compile Include="Interfaces.cs" />
+    <Compile Include="Inheritance.cs" />
     <Compile Include="Override.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -12,6 +12,7 @@ namespace Collections
         static void Main(string[] args)
         {
             MVA();
+            ListTest.Process();
 
 			Console.ReadLine();
 

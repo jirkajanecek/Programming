@@ -12,6 +12,9 @@ namespace Classes
 		{
             TestClass.run();
             AccessModifiers.run();
+			Inheritance.process();
+			Abstract.process();
+			Interface.process();
 
 			Console.ReadLine();
 		}

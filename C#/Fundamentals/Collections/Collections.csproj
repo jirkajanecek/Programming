@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{5D1CBB50-1E7B-422F-9441-DFF67643C28F}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Collections</RootNamespace>
     <AssemblyName>Collections</AssemblyName>
@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ListTest.cs" />
+    <Compile Include="PluralSight\CollectionsAndGenerics\Containers.cs" />
+    <Compile Include="PluralSight\CollectionsAndGenerics\Dictionary.cs" />
+    <Compile Include="PluralSight\CollectionsAndGenerics\List.cs" />
+    <Compile Include="PluralSight\CollectionsAndGenerics\Operations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

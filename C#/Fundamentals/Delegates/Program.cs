@@ -10,7 +10,7 @@ namespace Delegates
 	{
 		static void Main(string[] args)
 		{
-			MulticastDelegateTest.processTest();
+			Delegates.process();
 			Console.ReadLine();
 		}
 	}

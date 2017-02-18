@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[cars]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+	[Vin] VARCHAR(20) NOT NULL,
+	[id_color] INT NOT NULL,
+	[DoorCount] SMALLINT NOT NULL DEFAULT(5)
+)
