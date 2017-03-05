@@ -8,7 +8,7 @@ namespace _54_CountDV.Tests
 	{
 		[TestCase("AHoj1234", 4, 2)]
 		[TestCase("Some1Other2Text3", 3, 5)]
-		public void _54_CountDV_Suceeded(string text, int expectedDigits, int expectedVovels)
+		public void CountDV_Suceeded(string text, int expectedDigits, int expectedVovels)
 		{
 			int actualDigits = 0;
 			int actualVovels = 0;
