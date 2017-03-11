@@ -43,5 +43,10 @@ namespace _70_Shapes
 		{
 			return 2 * (Side1 + Side2);
 		}
+
+		public override string ToString()
+		{
+			return $"Rectangle " + _location.ToString() + $" sides: {_side1}x{_side2}";
+		}
 	}
 }

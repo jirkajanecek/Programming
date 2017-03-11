@@ -36,5 +36,10 @@ namespace _70_Shapes
 		{
 			return 2 * Math.PI * (_diameter / 2);
 		}
+
+		public override string ToString()
+		{
+			return $"Circle " + _location.ToString() + $" with diameter {_diameter}";
+		}
 	}
 }

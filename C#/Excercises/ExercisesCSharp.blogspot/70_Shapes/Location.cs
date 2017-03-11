@@ -16,5 +16,10 @@ namespace _70_Shapes
 			X = x;
 			Y = y;
 		}
+
+		public override string ToString()
+		{
+			return $"({X},{Y})";
+		}
 	}
 }

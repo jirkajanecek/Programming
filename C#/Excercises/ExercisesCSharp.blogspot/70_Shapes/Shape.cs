@@ -28,5 +28,10 @@ namespace _70_Shapes
 		public abstract double Area();
 
 		public abstract double Perimeter();
+
+		public override string ToString()
+		{
+			return $"Shape " + _location.ToString();
+		}
 	}
 }
