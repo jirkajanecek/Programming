@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "60_MinMaxArray", "60_MinMax
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "60_MinMaxArray.Tests", "Tests\60_MinMaxArray.Tests\60_MinMaxArray.Tests.csproj", "{79510E57-256D-4A8D-9296-C0FAD01A89DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "70_Shapes", "70_Shapes\70_Shapes.csproj", "{0895F9D9-6930-442E-9FD3-BF3871BEFA99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "70_Shapes.Tests", "70_Shapes.Tests\70_Shapes.Tests.csproj", "{97926387-010C-477E-9BB5-F2384BAA14EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,14 @@ Global
 		{79510E57-256D-4A8D-9296-C0FAD01A89DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79510E57-256D-4A8D-9296-C0FAD01A89DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79510E57-256D-4A8D-9296-C0FAD01A89DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0895F9D9-6930-442E-9FD3-BF3871BEFA99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0895F9D9-6930-442E-9FD3-BF3871BEFA99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0895F9D9-6930-442E-9FD3-BF3871BEFA99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0895F9D9-6930-442E-9FD3-BF3871BEFA99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97926387-010C-477E-9BB5-F2384BAA14EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97926387-010C-477E-9BB5-F2384BAA14EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97926387-010C-477E-9BB5-F2384BAA14EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97926387-010C-477E-9BB5-F2384BAA14EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,5 +54,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1DA6E1A7-9CF3-41B8-8DA2-9145E7EB63CA} = {8CC8E7F2-8DC1-43E4-8420-758D52C0E04C}
 		{79510E57-256D-4A8D-9296-C0FAD01A89DA} = {8CC8E7F2-8DC1-43E4-8420-758D52C0E04C}
+		{97926387-010C-477E-9BB5-F2384BAA14EF} = {8CC8E7F2-8DC1-43E4-8420-758D52C0E04C}
 	EndGlobalSection
 EndGlobal
