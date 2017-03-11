@@ -4,8 +4,8 @@ namespace _70_Shapes
 {
 	class Rectangle : Shape
 	{
-		private double _side1;
-		private double _side2;
+		protected double _side1;
+		protected double _side2;
 
 		public double Side1
 		{
